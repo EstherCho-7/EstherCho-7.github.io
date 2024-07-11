@@ -1,5 +1,7 @@
 #!/bin/bash
 
+figlet ROLLSROYCE
+
 FILE=~/tmp/_SUDDEN
 
 while true
