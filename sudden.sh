@@ -10,6 +10,7 @@ do
 		echo "SUDDEN!!!"
 	else
 		clear
+		figlet ROLLSROYCE
 		date
 	fi
 	sleep 3
