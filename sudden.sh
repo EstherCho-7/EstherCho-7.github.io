@@ -4,6 +4,9 @@ FILE=~/tmp/_SUDDEN
 
 while true
 do
-	echo "check"
+	if [ -e $file ]; then
+		echo "SUDDEN!!!"
 	sleep 3
+	fi
+	
 done
