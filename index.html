@@ -210,6 +210,30 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+		<!-- firebase -->
+			<script type="module">
+		  // Import the functions you need from the SDKs you need
+		  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-app.js";
+		  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-analytics.js";
+		  // TODO: Add SDKs for Firebase products that you want to use
+		  // https://firebase.google.com/docs/web/setup#available-libraries
+
+		  // Your web app's Firebase configuration
+		  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+		  const firebaseConfig = {
+		   	apiKey: "AIzaSyDCePMFb7BeIlFwIj222rfGIJGFV3DifWg",
+		    	authDomain: "project-esther-7777.firebaseapp.com",
+		    	projectId: "project-esther-7777",
+		    	storageBucket: "project-esther-7777.appspot.com",
+		    	messagingSenderId: "882671683640",
+		    	appId: "1:882671683640:web:05fb3ee497d2429817becd",
+		    	measurementId: "G-F3D97XL7SH"
+		  	};
+
+		  	// Initialize Firebase
+		  	const app = initializeApp(firebaseConfig);
+		  	const analytics = getAnalytics(app);
+			</script>
 
 	</body>
 </html>
